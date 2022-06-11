@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/b2">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="110dp"
+        android:text=""
+        />
+
+    <Button
+        android:id="@+id/quce"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/shape_circle"
+        android:text="趣测集"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="50sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:text=""
+        />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="230dp"
+        android:background="@drawable/button_yellow"
+        android:gravity="center"
+        android:text="进入"
+        android:textColor="@color/white"
+        android:textSize="26sp" />
+
+</LinearLayout>
